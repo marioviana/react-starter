@@ -1,15 +1,17 @@
 {
-  "name": "node-react-starter",
+  "name": "react-starter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react",
+    "starter"
+  ],
+  "author": "Mário Ferreira",
   "license": "ISC",
   "dependencies": {
     "react": "^16.12.0",
